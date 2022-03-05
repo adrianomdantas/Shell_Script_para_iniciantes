@@ -9,4 +9,5 @@ Para ver o que é exigido na certificação basta acessar o site https://www.lpi
 
 ## Conteúdo
 
-[Introdução](topicos/introdução/conceitos_basicos.md)
+[Introdução](topicos/introdução.md)
+[]()
