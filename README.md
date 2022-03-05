@@ -10,4 +10,4 @@ Para ver o que é exigido na certificação basta acessar o site https://www.lpi
 ## Conteúdo
 
 [Introdução](topicos/introdução.md)
-[]()
+[Variaveis de ambiente](topicos/Variaveis_de_ambiente.md)
