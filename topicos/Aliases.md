@@ -41,6 +41,6 @@ Para verificar as funções existentes use o comando
 ### OBS 
 Estes aliases e funções são apenas temporarias, ao reiniciar a sessão ou reiniciar a maquina, eles desaparecem, para ficarem permanentes, veremos no próximo item como usar arquivos de configuração no sistema  
 
-|Anterior|readme|Próxilo|
-|:---|---|---:|
-|[Arrays - Variáveis de Ambiente com múltiplos valores](Arrays.md)| [readme](cd../README.md )| [Aliases e Funções no Bash](topicos/Aliases.md)|
+|Topico Anterior|Próximo Topico|
+|:---|---:|
+|[Arrays - Variáveis de Ambiente com múltiplos valores](Arrays.md)| [Arquivos de configuração](arqconfig.md)|

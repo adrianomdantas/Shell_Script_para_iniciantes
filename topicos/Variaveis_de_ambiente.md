@@ -55,3 +55,6 @@ Exemplos:
 `ps` #mostra o processo unico rodando agora  
 `export teste` #exporta a variavel "teste"  
 
+|Topico Anterior|Próximo Topico|
+|:---|---:|
+|[Introdução](introdução.md)|[Arrays - Variáveis de Ambiente com múltiplos valores](Variaveis_de_ambiente.md)|

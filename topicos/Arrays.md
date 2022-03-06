@@ -44,3 +44,7 @@ a b c
 a b c d
 ~$
 ```
+
+|Topico Anterior|Próximo Topico|
+|:---|---:|
+|[Variaveis de ambiente](Variaveis_de_ambiente.md)|[Aliases e Funções no Bash](Aliases.md)|
