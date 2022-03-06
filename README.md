@@ -1,7 +1,7 @@
 # Shell_Script_para_iniciantes
 
 ## Certificação
-![](https://www.lpi.org/sites/default/files/styles/w555/public/LPIC-1_0.jpg?itok=Lj-xc63t) 
+![figura LPIC - I](https://www.lpi.org/sites/default/files/styles/w555/public/LPIC-1_0.jpg?itok=Lj-xc63t "LPIC-1") 
 
 Para quem quer tirar certificação Linux, é importante saber ShelScript
 
