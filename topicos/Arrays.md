@@ -24,12 +24,16 @@ acerola
 laranja morango acerola abacaxi
 ~$
 ```
+
 Alterar valores de uma posição específica:   
 `~$ testearray[2]=banana`   
+
 Remover itens individuais:   
 `~$ unset testearray[2]`  
+
 Remover o array todo:  
 `~$ unset testearray[*]`  
+
 Para acrescentar um item na array:  
 ```
 ~$ meuarray=(a b c)
