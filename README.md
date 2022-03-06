@@ -13,3 +13,4 @@ Para ver o que é exigido na certificação basta acessar o site https://www.lpi
 * [Variaveis de ambiente](topicos/Variaveis_de_ambiente.md)
 * [Arrays - Variáveis de Ambiente com múltiplos valores](topicos/Arrays.md)
 * [Aliases e Funções no Bash](topicos/Aliases.md)
+* [Arquivos de Configuração profile, bashrc e outros](topicos/arqconfig.md)
