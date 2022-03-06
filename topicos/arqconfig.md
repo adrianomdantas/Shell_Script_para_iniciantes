@@ -49,6 +49,7 @@ Quando você se loga no sistema linux, o shell bash acessa o arquivo de iniciali
 
 Esses arquivos locais são todos opcionais e podem ser personalizados pelo usuário para incluir variáveis de ambiente e scripts de inicialização  
 
-
-[Aliases e Funções no Bash](Aliases.md) [readme](cd../README.md ) []()
+|Anterior|Próxilo|
+|:---|---:|
+|[Aliases e Funções no Bash](Aliases.md) |[]()|
 
