@@ -51,5 +51,5 @@ Esses arquivos locais são todos opcionais e podem ser personalizados pelo usuá
 
 |Topico Anterior|Próximo Topico|
 |:---|---:|
-|[Aliases e Funções no Bash](Aliases.md) |[]()|
+|[Aliases e Funções no Bash](Aliases.md) |[Criando scripts simples ](comandos_simples.md)|
 
