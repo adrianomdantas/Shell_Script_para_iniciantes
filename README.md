@@ -15,3 +15,4 @@ Para ver o que é exigido na certificação basta acessar o site https://www.lpi
 * [Aliases e Funções no Bash](topicos/Aliases.md)
 * [Arquivos de Configuração profile, bashrc e outros](topicos/arqconfig.md)
 * [Criando scripts simples ](topicos/comandos_simples.md)
+* [Usando variáveis nos scripts](topicos/variaveis_nos_scripts.md)
