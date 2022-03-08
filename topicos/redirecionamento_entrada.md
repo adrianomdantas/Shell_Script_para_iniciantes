@@ -46,8 +46,8 @@ O símbolo de redirecionamento de entrada inline é o **<<**; Você também deve
 2 8 26
 ~$
 ```
-EOF - Marcador(não precisa ser EOF, pode ser qualquer palavra)
-> - prompt secundário(PS2)  
+**EOF** - Marcador (não precisa ser EOF, pode ser qualquer palavra ou letra, ou atém mesmo símbolo)  
+**>** - prompt secundário(PS2)  
 
 |Topico Anterior|Próximo Topico|
 |:---|---:|
