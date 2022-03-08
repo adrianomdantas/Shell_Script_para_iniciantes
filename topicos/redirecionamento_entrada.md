@@ -51,4 +51,4 @@ O símbolo de redirecionamento de entrada inline é o **<<**; Você também deve
 
 |Topico Anterior|Próximo Topico|
 |:---|---:|
-|[Redirecionar comandos para variáveis com a crase](Redirecionar_comandos.md)|[Cálculos aritméticos simples no bash]()|
+|[Redirecionar comandos para variáveis com a crase](Redirecionar_comandos.md)|[Cálculos aritméticos simples no bash](Calculos.md)|
