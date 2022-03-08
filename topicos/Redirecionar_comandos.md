@@ -39,4 +39,4 @@ Foi usado **log.$arq** para cada vez que for salvo o arquivo e for em minuto dir
 
 |Topico Anterior|Próximo Topico|
 |:---|---:|
-|[Usando variáveis nos scripts](variaveis_nos_scripts.md)|[Redirecionamento de entrada e saída de dados]()|
+|[Usando variáveis nos scripts](variaveis_nos_scripts.md)|[Redirecionamento de entrada e saída de dados](redirecionamento_entrada.md)|

@@ -17,3 +17,4 @@ Para ver o que é exigido na certificação basta acessar o site https://www.lpi
 * [Criando scripts simples ](topicos/comandos_simples.md)
 * [Usando variáveis nos scripts](topicos/variaveis_nos_scripts.md)
 * [Redirecionar comandos para variáveis com a crase](topicos/Redirecionar_comandos.md)
+* [Redirecionamento de entrada e saída de dados](topicos/redirecionamento_entrada.md)
