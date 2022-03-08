@@ -51,4 +51,4 @@ EOF - Marcador(não precisa ser EOF, pode ser qualquer palavra)
 
 |Topico Anterior|Próximo Topico|
 |:---|---:|
-|[Redirecionar comandos para variáveis com a crase](topicos/Redirecionar_comandos.md)|[Cálculos aritméticos simples no bash]()|
+|[Redirecionar comandos para variáveis com a crase](Redirecionar_comandos.md)|[Cálculos aritméticos simples no bash]()|
