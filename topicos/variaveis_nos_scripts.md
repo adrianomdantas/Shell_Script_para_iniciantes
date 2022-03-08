@@ -1,3 +1,5 @@
+# Usando variaveis nos scripts  
+
 ## Usando variaveis de ambiente
 Criando o script   
 `~$ vi testevar.sh`
@@ -34,4 +36,4 @@ Não esquecer de usar o `chmod`para mudar a permissão do script
 
 |Topico Anterior|Próximo Topico|
 |:---|---:|
-|[Criando scripts simples ](comandos_simples.md)|[Redirecionar comandos para variáveis com a crase]()|
+|[Criando scripts simples ](comandos_simples.md)|[Redirecionar comandos para variáveis com a crase](Redirecionar_comandos.md)|
