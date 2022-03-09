@@ -1,4 +1,4 @@
-## Variaveis de ambiente
+#02 - Variaveis de ambiente
 
 
 Varios programas precisam de informações sobre o usuario e suas preferências para poderem rodar. Para evitar que voce tenha que passar esses dados a cada comando que executa (ec.: caminhos de diretórios de bibliotecas), o shell cria um ambiente operacional composto de inumeras variaveis.  
@@ -57,4 +57,4 @@ Exemplos:
 
 |Topico Anterior|Próximo Topico|
 |:---|---:|
-|[Introdução](introdução.md)|[Arrays - Variáveis de Ambiente com múltiplos valores](Arrays.md)|
+|[01 - Introdução](introdução.md)|[03 - Arrays - Variáveis de Ambiente com múltiplos valores](Arrays.md)|
