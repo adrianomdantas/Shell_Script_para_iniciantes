@@ -1,4 +1,5 @@
-# Personalizar e usar o ambiente do Shell
+"01 - Introdução
+## Personalizar e usar o ambiente do Shell
 
 ### O que é o Shell?
 
@@ -33,4 +34,4 @@ Você pode instalar shells extras usando:
 
 |Próximo Topico|
 |:---|
-|[Variaveis de ambiente](Variaveis_de_ambiente.md)|
+|[02 - Variaveis de ambiente](Variaveis_de_ambiente.md)|
