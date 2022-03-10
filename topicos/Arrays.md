@@ -1,4 +1,4 @@
-## Arrays de Ambiente
+## 03 - Arrays - Variáveis de Ambiente com múltiplos valores
 
 Variaveis de ambiente podem ser usadas com arrays - variaveis que podem armazenar múltiplos valores.   
 Para cinfigurar um array, liste os seus valores entre parênteses:
@@ -47,4 +47,4 @@ a b c d
 
 |Topico Anterior|Próximo Topico|
 |:---|---:|
-|[Variaveis de ambiente](Variaveis_de_ambiente.md)|[Aliases e Funções no Bash](Aliases.md)|
+|[02 - Variaveis de ambiente](Variaveis_de_ambiente.md)|[04 - Aliases e Funções no Bash](Aliases.md)|
