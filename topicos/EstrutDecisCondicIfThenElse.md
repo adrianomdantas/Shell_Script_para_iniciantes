@@ -72,12 +72,4 @@ Como o diretório não existe (saida diferente de 0), o segundo bloco **else** f
 
 |Topico Anterior|Próximo Topico|
 |:---|---:|
-<<<<<<< HEAD
-<<<<<<< HEAD
-|[12 - Status de Saída dos comandos e o comando exit](StatusDeSaida.md)|[14Condicional aninhado if-then com elif](CondicionalIfThenElif.md)|
-=======
-|[12 - Status de Saída dos comandos e o comando exit](StatusDeSaida.md)|[14Condicional aninhado if-then com elif]()|
->>>>>>> b076e81311d6cc3b3faf309752480265c8bc3d36
-=======
 |[12 - Status de Saída dos comandos e o comando exit](StatusDeSaida.md)|[14 - Condicional aninhado if-then com elif](CondicionalIfThenElif.md)|
->>>>>>> d82c99b541e1572e800893be0cf2652dd2c22c9b
