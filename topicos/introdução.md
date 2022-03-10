@@ -1,4 +1,4 @@
-#01 - Introdução
+# 01 - Introdução
 ## Personalizar e usar o ambiente do Shell
 
 ### O que é o Shell?
