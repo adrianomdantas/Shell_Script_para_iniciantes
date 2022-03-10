@@ -71,4 +71,4 @@ exit $var3
 
 |Topico Anterior|Próximo Topico|
 |:---|---:|
-|[11 - Usando a calculadora bc em scripts](Calculos.md)|[13 - Estrutura de decisão condicional if then else]()|
+|[11 - Usando a calculadora bc em scripts](Calculos.md)|[13 - Estrutura de decisão condicional if then else](EstrutDecisCondicIfThenElse.md)|
