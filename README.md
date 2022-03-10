@@ -10,7 +10,7 @@ Para ver o que é exigido na certificação basta acessar o site https://www.lpi
 ## Conteúdo
 |Parte 1|Parte 2|
 |:---|:---|
-| [01 - Introdução](topicos/introdução.md)|[16 - Comparando arquivos e diretórios com comando test]()|
+| [01 - Introdução](topicos/introdução.md)|[16 - Comparando arquivos e diretórios com comando test](topicos/CompArqDirTest.md)|
 | [02 - Variaveis de ambiente](topicos/Variaveis_de_ambiente.md)|[17 - Testar condições compostas com AND e OR]()|
 | [03 - Arrays - Variáveis de Ambiente com múltiplos valores](topicos/Arrays.md)|[18 - Comando case - teste de múltiplas condições]()|
 | [04 - Aliases e Funções no Bash](topicos/Aliases.md)|[19 -]()|
