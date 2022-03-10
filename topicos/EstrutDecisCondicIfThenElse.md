@@ -28,7 +28,7 @@ Caso contrário, esses comandos serão ignorados.
 ~$ vi ifsimples.sh
 #!/bin/bash
 # Exemplo de condicional simples em um script
-if dc/
+if cd/
 then
   echo "Diretório raiz encontrado!"
 fi
@@ -72,4 +72,8 @@ Como o diretório não existe (saida diferente de 0), o segundo bloco **else** f
 
 |Topico Anterior|Próximo Topico|
 |:---|---:|
+<<<<<<< HEAD
 |[12 - Status de Saída dos comandos e o comando exit](StatusDeSaida.md)|[14Condicional aninhado if-then com elif](CondicionalIfThenElif.md)|
+=======
+|[12 - Status de Saída dos comandos e o comando exit](StatusDeSaida.md)|[14Condicional aninhado if-then com elif]()|
+>>>>>>> b076e81311d6cc3b3faf309752480265c8bc3d36
