@@ -1,5 +1,5 @@
 
-# Cálculos Matemátios
+# 10 - Cálculos aritméticos simples no bash
 É possível realizar cálculos matemátics diretamente do bash, e atin=buir o resultado de uma operação a uma variável.  
 Para isoo, englobe a equqção usando um cifrão e colchetes:  
 ```
@@ -44,4 +44,4 @@ O resultado deveria ser 4,5 mas o shell retornou 4.
 
 |Topico Anterior|Próximo Topico|
 |:---|---:|
-|[Redirecionamento de entrada e saída de dados](redirecionamento_entrada.md)|[Usando a calculadora bc em scripts](CalculoBC.md)|
+|[09 - Redirecionamento de entrada e saída de dados](redirecionamento_entrada.md)|[11 - Usando a calculadora bc em scripts](CalculoBC.md)|
