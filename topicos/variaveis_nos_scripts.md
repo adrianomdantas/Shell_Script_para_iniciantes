@@ -1,4 +1,4 @@
-# Usando variaveis nos scripts  
+# 07 - Usando variáveis nos scripts  
 
 ## Usando variaveis de ambiente
 Criando o script   
@@ -36,4 +36,4 @@ Não esquecer de usar o `chmod`para mudar a permissão do script
 
 |Topico Anterior|Próximo Topico|
 |:---|---:|
-|[Criando scripts simples ](comandos_simples.md)|[Redirecionar comandos para variáveis com a crase](Redirecionar_comandos.md)|
+|[06 - Criando scripts simples](comandos_simples.md)|[08 - Redirecionar comandos para variáveis com a crase](Redirecionar_comandos.md)|
