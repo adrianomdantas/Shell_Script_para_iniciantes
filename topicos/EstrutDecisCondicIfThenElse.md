@@ -28,7 +28,7 @@ Caso contrário, esses comandos serão ignorados.
 ~$ vi ifsimples.sh
 #!/bin/bash
 # Exemplo de condicional simples em um script
-if dc/
+if cd/
 then
   echo "Diretório raiz encontrado!"
 fi
