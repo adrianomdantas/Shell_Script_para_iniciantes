@@ -1,4 +1,4 @@
-# Redirecionar comandos para variáveis com a crase
+# 08 - Redirecionar comandos para variáveis com a crase
 
 ## Redirecionar saída de comandos a cariáveis
 
@@ -39,4 +39,4 @@ Foi usado **log.$arq** para cada vez que for salvo o arquivo e for em minuto dir
 
 |Topico Anterior|Próximo Topico|
 |:---|---:|
-|[Usando variáveis nos scripts](variaveis_nos_scripts.md)|[Redirecionamento de entrada e saída de dados](redirecionamento_entrada.md)|
+|[07 - Usando variáveis nos scripts](variaveis_nos_scripts.md)|[09 - Redirecionamento de entrada e saída de dados](redirecionamento_entrada.md)|
