@@ -24,3 +24,4 @@ Para ver o que é exigido na certificação basta acessar o site https://www.lpi
 | [12 - Status de Saída dos comandos e o comando exit](topicos/StatusDeSaida.md)||
 | [13 - Estrutura de decisão condicional if then else](topicos/EstrutDecisCondicIfThenElse.md)||
 | [14 - Condicional aninhado if-then com elif](topicos/CondicionalIfThenElif.md)||
+| [15 - Comparações numéricas e de strings com comando test](topicos/CompNumStrTest.md)||
