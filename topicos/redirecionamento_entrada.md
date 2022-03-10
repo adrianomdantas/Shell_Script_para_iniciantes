@@ -1,4 +1,4 @@
-# Redirecionamento de entrada e saída de dados
+# 09 - Redirecionamento de entrada e saída de dados
 
 ### Redirecionamento de saida  
 O mais comum é enviar a saída de um comando para um arquivo. Para isso, use o simbolo: **>**
@@ -51,4 +51,4 @@ O símbolo de redirecionamento de entrada inline é o **<<**; Você também deve
 
 |Topico Anterior|Próximo Topico|
 |:---|---:|
-|[Redirecionar comandos para variáveis com a crase](Redirecionar_comandos.md)|[Cálculos aritméticos simples no bash](Calculos.md)|
+|[08 - Redirecionar comandos para variáveis com a crase](Redirecionar_comandos.md)|[10 - Cálculos aritméticos simples no bash](Calculos.md)|
