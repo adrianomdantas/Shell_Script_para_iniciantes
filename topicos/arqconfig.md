@@ -1,4 +1,4 @@
-## Arquivos de Configuração
+# 05 - Arquivos de Configuração profile, bashrc e outros
 
 Variáveis de ambiente, funções e aliases podem ser configurados automaticamente pelo bash com o uso de alguns arquivos de configuração, de modo a definir o ambiente operacioanl ao iniciar o sistema   
 Cara arquivo de configuração tem um escopo e momento de uso definidos, e o arquivo usaado depende do método usado para iniciar o bash. Há três formas de se iniciar o bash
@@ -51,5 +51,5 @@ Esses arquivos locais são todos opcionais e podem ser personalizados pelo usuá
 
 |Topico Anterior|Próximo Topico|
 |:---|---:|
-|[Aliases e Funções no Bash](Aliases.md) |[Criando scripts simples ](comandos_simples.md)|
+|[04 - Aliases e Funções no Bash](Aliases.md) |[06 - Criando scripts simples](comandos_simples.md)|
 
