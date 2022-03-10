@@ -1,4 +1,4 @@
-## Criando scripts simples 
+# 06 - Criando scripts simpless 
 
 É possivel encadear multiplos comandos em sequência no bash, bastando para isso separa-los com um ponto-e-virgula:  
 ```
@@ -46,4 +46,4 @@ whoami #Este comando mostra o usuario atual logado no sistema
 ```
 |Topico Anterior|Próximo Topico|
 |:---|---:|
-|[Arquivos de Configuração profile, bashrc e outros](arqconfig.md) |[Usando variáveis nos scripts](variaveis_nos_scripts.md)|
+|[05 - Arquivos de Configuração profile, bashrc e outros](arqconfig.md) |[07 - Usando variáveis nos scripts](variaveis_nos_scripts.md)|
