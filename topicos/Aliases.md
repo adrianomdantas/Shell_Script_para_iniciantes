@@ -1,4 +1,4 @@
-## Aliases
+# 04 - Aliases e Funções no Bash
 
 É possivel definir um alias para um comando ou sequência de caomandos usandos com frequência.
 ```
@@ -43,4 +43,4 @@ Estes aliases e funções são apenas temporarias, ao reiniciar a sessão ou rei
 
 |Topico Anterior|Próximo Topico|
 |:---|---:|
-|[Arrays - Variáveis de Ambiente com múltiplos valores](Arrays.md)| [Arquivos de configuração](arqconfig.md)|
+|[03 - Arrays - Variáveis de Ambiente com múltiplos valores](Arrays.md)| [05 - Arquivos de Configuração profile, bashrc e outros](arqconfig.md)|
