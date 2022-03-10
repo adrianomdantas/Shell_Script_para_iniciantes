@@ -125,7 +125,7 @@ then
 else
   echo "Variável não está vazia"
 fi
-
+```
 |Topico Anterior|Próximo Topico|
 |:---|---:|
 |[14 - Condicional aninhado if-then com elif](CondicionalIfThenElif.md)|[16 - Comparando arquivos e diretórios com comando test](ComArqDirTest.md)|
