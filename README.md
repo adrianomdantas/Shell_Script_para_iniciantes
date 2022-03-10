@@ -21,3 +21,4 @@ Para ver o que é exigido na certificação basta acessar o site https://www.lpi
 | [09 - Redirecionamento de entrada e saída de dados](topicos/redirecionamento_entrada.md)||
 | [10 - Cálculos aritméticos simples no bash](topicos/Calculos.md)||
 | [11 - Usando a calculadora bc em scripts](topicos/CalculoBC.md) ||
+| [12 - Status de Saída dos comandos e o comando exit](topicos/StatusDeSaida.md)||

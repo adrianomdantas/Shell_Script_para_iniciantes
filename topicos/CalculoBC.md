@@ -101,4 +101,4 @@ Resultado: 40
 
 |Topico Anterior|Próximo Topico|
 |:---|---:|
-|[10 - Cálculos aritméticos simples no bash](Calculos.md)|[12 - Status de Saída dos comandos e o comando exit]()|
+|[10 - Cálculos aritméticos simples no bash](Calculos.md)|[12 - Status de Saída dos comandos e o comando exit](StatusDeSaida.md)|
