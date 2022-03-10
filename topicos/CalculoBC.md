@@ -1,4 +1,4 @@
-# Usando a calculadora bc em scripts
+# 11 - Usando a calculadora bc em scripts
 
 A calculadora do bash é na verdade uma linguagem de programação que permite executar expressões de ponto flutuante no terminal.  
 Ela reconhece:  
@@ -101,4 +101,4 @@ Resultado: 40
 
 |Topico Anterior|Próximo Topico|
 |:---|---:|
-|[Cálculos aritméticos simples no bash](Calculos.md)|[Status de Saída dos comandos e o comando exit]()|
+|[10 - Cálculos aritméticos simples no bash](Calculos.md)|[12 - Status de Saída dos comandos e o comando exit]()|
