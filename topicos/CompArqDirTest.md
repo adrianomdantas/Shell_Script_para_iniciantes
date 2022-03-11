@@ -72,4 +72,4 @@ fi
 ``` 
 |Topico Anterior|Próximo Topico|
 |:---|---:|
-|[15 - Comparações numéricas e de strings com comando test](CompNumStrTest.md)|[17 - Testar condições compostas com AND e OR]()
+|[15 - Comparações numéricas e de strings com comando test](CompNumStrTest.md)|[17 - Testar condições compostas com AND e OR](TestCondCompAndOr.md)
