@@ -1,7 +1,7 @@
 # Shell_Script_para_iniciantes
 
 ## Certificação
-![figura LPIC - I](https://www.lpi.org/sites/default/files/styles/w555/public/LPIC-1_0.jpg?itok=Lj-xc63t "LPIC-1") 
+![figura shelscript](https://www.lpi.org/sites/default/files/styles/w555/public/LPI-CODE_0.jpg?itok=mLPazE2t "ShellScript") 
 
 Para quem quer tirar certificação Linux, é importante saber ShellScript
 
@@ -13,7 +13,7 @@ Para ver o que é exigido na certificação basta acessar o site https://www.lpi
 | [01 - Introdução](topicos/introdução.md)|[16 - Comparando arquivos e diretórios com comando test](topicos/CompArqDirTest.md)|
 | [02 - Variaveis de ambiente](topicos/Variaveis_de_ambiente.md)|[17 - Testar condições compostas com AND e OR](topicos/TestCondCompAndOr.md)|
 | [03 - Arrays - Variáveis de Ambiente com múltiplos valores](topicos/Arrays.md)|[18 - Comando case - teste de múltiplas condições](topicos/ComCaseTestMultiCond.md)|
-| [04 - Aliases e Funções no Bash](topicos/Aliases.md)|[19 - ]()|
+| [04 - Aliases e Funções no Bash](topicos/Aliases.md)|[19 - Estrutura de Repetição for (loop)]()|
 | [05 - Arquivos de Configuração profile, bashrc e outros](topicos/arqconfig.md)|[20 -]()|
 | [06 - Criando scripts simples ](topicos/comandos_simples.md)|[21 -]()|
 | [07 - Usando variáveis nos scripts](topicos/variaveis_nos_scripts.md)|[22 -]()|
