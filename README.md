@@ -13,7 +13,7 @@ Para ver o que é exigido na certificação basta acessar o site https://www.lpi
 | [01 - Introdução](topicos/introdução.md)|[16 - Comparando arquivos e diretórios com comando test](topicos/CompArqDirTest.md)|
 | [02 - Variaveis de ambiente](topicos/Variaveis_de_ambiente.md)|[17 - Testar condições compostas com AND e OR](topicos/TestCondCompAndOr.md)|
 | [03 - Arrays - Variáveis de Ambiente com múltiplos valores](topicos/Arrays.md)|[18 - Comando case - teste de múltiplas condições](topicos/ComCaseTestMultiCond.md)|
-| [04 - Aliases e Funções no Bash](topicos/Aliases.md)|[19 - Estrutura de Repetição for (loop)]()|
+| [04 - Aliases e Funções no Bash](topicos/Aliases.md)|[19 - Estrutura de Repetição for (loop)](topicos/RepeticaoFor.md)|
 | [05 - Arquivos de Configuração profile, bashrc e outros](topicos/arqconfig.md)|[20 -]()|
 | [06 - Criando scripts simples ](topicos/comandos_simples.md)|[21 -]()|
 | [07 - Usando variáveis nos scripts](topicos/variaveis_nos_scripts.md)|[22 -]()|

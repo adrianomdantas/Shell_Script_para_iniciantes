@@ -43,4 +43,4 @@ esac
 
 |Topico Anterior|Próximo Topico|
 |:---|---:|
-|[17 - Testar condições compostas com AND e OR](TestCondCompAndOr.md)|[19 - Estrutura de Repetição for (loop)]()|
+|[17 - Testar condições compostas com AND e OR](TestCondCompAndOr.md)|[19 - Estrutura de Repetição for (loop)](RepeticaoFor.md)|
