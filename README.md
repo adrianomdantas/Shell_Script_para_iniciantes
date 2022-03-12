@@ -1,12 +1,12 @@
 # Shell_Script_para_iniciantes
 
-## Certificação
+## Shellscript para Certificação Linux
 ![figura shelscript](https://www.lpi.org/sites/default/files/styles/w555/public/LPI-CODE_0.jpg?itok=mLPazE2t "ShellScript")
  
 
-Para quem quer tirar certificação Linux, é importante saber ShellScript
+**Para quem quer tirar certificação Linux, é importante saber ShellScript**
 
-Para ver o que é exigido na certificação basta acessar o site https://www.lpi.org/
+**Para ver o que é exigido na certificação basta acessar o site https://www.lpi.org/**
 
 ## Conteúdo
 |Parte 1|Parte 2|
