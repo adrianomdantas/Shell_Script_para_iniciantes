@@ -16,7 +16,7 @@ Para ver o que é exigido na certificação basta acessar o site https://www.lpi
 | [03 - Arrays - Variáveis de Ambiente com múltiplos valores](topicos/Arrays.md)|[18 - Comando case - teste de múltiplas condições](topicos/ComCaseTestMultiCond.md)|
 | [04 - Aliases e Funções no Bash](topicos/Aliases.md)|[19 - Estrutura de Repetição for (loop)](topicos/RepeticaoFor.md)|
 | [05 - Arquivos de Configuração profile, bashrc e outros](topicos/arqconfig.md)|[20 - Estrutura de Repetição While (loop)](topicos/RepeticaoWhile.md)|
-| [06 - Criando scripts simples ](topicos/comandos_simples.md)|[21 -]()|
+| [06 - Criando scripts simples ](topicos/comandos_simples.md)|[21 -Estrutura de Repetição Until (loop)](topicos/RepeticaoUntil.md)|
 | [07 - Usando variáveis nos scripts](topicos/variaveis_nos_scripts.md)|[22 -]()|
 | [08 - Redirecionar comandos para variáveis com a crase](topicos/Redirecionar_comandos.md)|[23 -]()|
 | [09 - Redirecionamento de entrada e saída de dados](topicos/redirecionamento_entrada.md)|[24 -]()|
