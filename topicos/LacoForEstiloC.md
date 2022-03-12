@@ -1,4 +1,4 @@
-# 21 -  Laço for no estilo Linguagem C
+# 22 -  Laço for no estilo Linguagem C
 
 ### Comando for no estilo mLingagem C  
 
