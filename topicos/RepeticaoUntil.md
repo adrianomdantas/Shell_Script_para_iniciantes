@@ -32,4 +32,4 @@ done
 
 |Topico Anterior|Próximo Topico|
 |:---|---:|
-|[20 - Estrutura de Repetição While (loop)](RepeticaoWhile.md)||
+|[20 - Estrutura de Repetição While (loop)](RepeticaoWhile.md)|22 -  Laço for no estilo Linguagem C ](LacoForEstiloC.md)|
