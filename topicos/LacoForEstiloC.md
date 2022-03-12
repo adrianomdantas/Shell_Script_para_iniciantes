@@ -22,4 +22,4 @@ done
 
 |Topico Anterior|Próximo Topico|
 |:---|---:|
-|[21 -Estrutura de Repetição Until (loop)](RepeticaoUntil.md)||
+|[21 -Estrutura de Repetição Until (loop)](RepeticaoUntil.md)|[23 - Ler dados do teclado - Parâmetros de Linha de Comando](LedadosTeclador.md)|
