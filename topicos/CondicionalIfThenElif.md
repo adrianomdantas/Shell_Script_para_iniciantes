@@ -48,4 +48,4 @@ Neste caso, se o diretório Fulano existir ou mesmo se o doretório Ciclana exis
 
 |Topico Anterior|Próximo Topico|
 |:---|---:|
-|[[13 - Estrutura de decisão condicional if then else](EstrutDecisCondicIfThenElse.md)|[15 Comparações numéricas e de strings com comando test](CompNumStrTest.md)|
+|[13 - Estrutura de decisão condicional if then else](EstrutDecisCondicIfThenElse.md)|[15 Comparações numéricas e de strings com comando test](CompNumStrTest.md)|
