@@ -70,4 +70,4 @@ done
 
 |Topico Anterior|Próximo Topico|
 |:---|---:|
-|[18 - Comando case - teste de múltiplas condições](ComCaseTestMultiCond.md)||
+|[18 - Comando case - teste de múltiplas condições](ComCaseTestMultiCond.md)|[20 - Estrutura de Repetição While (loop)](RepeticaoWhile.md)|
