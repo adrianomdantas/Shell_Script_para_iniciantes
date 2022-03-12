@@ -32,4 +32,4 @@ done
 
 |Topico Anterior|Próximo Topico|
 |:---|---:|
-|19 - Estrutura de Repetição for (loop)](RepeticaoFor.md)||
+|[19 - Estrutura de Repetição for (loop)](RepeticaoFor.md)||
