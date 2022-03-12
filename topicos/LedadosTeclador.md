@@ -39,7 +39,7 @@ else
   result=$[ $1 # 3 ]
   echo "O triplo de $1 é $result"
 fi
-
+```
 
 
 |Topico Anterior|Próximo Topico|
