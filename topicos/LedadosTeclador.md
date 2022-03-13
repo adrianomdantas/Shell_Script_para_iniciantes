@@ -44,4 +44,4 @@ fi
 
 |Topico Anterior|Próximo Topico|
 |:---|---:|
-|[22 -  Laço for no estilo Linguagem C](LacoForEstiloC.md)|[24 - ]()|
+|[22 -  Laço for no estilo Linguagem C](LacoForEstiloC.md)|[24 - Ler dados do teclado - Comando shift (deslocamento)](CoandoShift.md)]()|

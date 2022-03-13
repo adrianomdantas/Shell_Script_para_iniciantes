@@ -19,7 +19,7 @@
 | [06 - Criando scripts simples ](topicos/comandos_simples.md)|[21 -Estrutura de Repetição Until (loop)](topicos/RepeticaoUntil.md)|
 | [07 - Usando variáveis nos scripts](topicos/variaveis_nos_scripts.md)|[22 -  Laço for no estilo Linguagem C](topicos/LacoForEstiloC.md)|
 | [08 - Redirecionar comandos para variáveis com a crase](topicos/Redirecionar_comandos.md)|[23 - Ler dados do teclado - Parâmetros de Linha de Comando](topicos/LedadosTeclador.md)|
-| [09 - Redirecionamento de entrada e saída de dados](topicos/redirecionamento_entrada.md)|[24 -]()|
+| [09 - Redirecionamento de entrada e saída de dados](topicos/redirecionamento_entrada.md)|[24 - Ler dados do teclado - Comando shift (deslocamento)](topicos/CoandoShift.md)|
 | [10 - Cálculos aritméticos simples no bash](topicos/Calculos.md)|[25 -]()|
 | [11 - Usando a calculadora bc em scripts](topicos/CalculoBC.md) |[26 -]()|
 | [12 - Status de Saída dos comandos e o comando exit](topicos/StatusDeSaida.md)|[27 -]()|
