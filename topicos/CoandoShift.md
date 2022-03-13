@@ -21,4 +21,4 @@ done
 
 |Topico Anterior|Próximo Topico|
 |:---|---:|
-|[23 - Ler dados do teclado - Parâmetros de Linha de Comando](LedadosTeclador.md)||
+|[23 - Ler dados do teclado - Parâmetros de Linha de Comando](LedadosTeclador.md)|[25 - Ler dados do teclado - Opções de linha de comando](LerDadosOpDeLinComando.md)|
