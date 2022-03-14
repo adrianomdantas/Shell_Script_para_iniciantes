@@ -22,4 +22,4 @@ done
 
 |Topico Anterior|Próximo Topico|
 |:---|---:|
-|[24 - Ler dados do teclado - Comando shift (deslocamento)](CoandoShift.md)||
+|[24 - Ler dados do teclado - Comando shift (deslocamento)](CoandoShift.md)|[26 - Comando read - Ler dados do teclado e de arquivos](LerDadosComandoRead.md)|
