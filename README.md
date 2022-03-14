@@ -22,7 +22,7 @@
 | [09 - Redirecionamento de entrada e saída de dados](topicos/redirecionamento_entrada.md)|[24 - Ler dados do teclado - Comando shift (deslocamento)](topicos/CoandoShift.md)|
 | [10 - Cálculos aritméticos simples no bash](topicos/Calculos.md)|[25 - Ler dados do teclado - Opções de linha de comando](topicos/LerDadosOpDeLinComando.md)|
 | [11 - Usando a calculadora bc em scripts](topicos/CalculoBC.md) |[26 - Comando read - Ler dados do teclado e de arquivos](topicos/LerDadosComandoRead.md)|
-| [12 - Status de Saída dos comandos e o comando exit](topicos/StatusDeSaida.md)|[27 -]()|
+| [12 - Status de Saída dos comandos e o comando exit](topicos/StatusDeSaida.md)|[27 -Criando caixas de diálogo TUI com whiptail no Linux](topicos/CxDeDialogoTUIcomwhiptail.md))|
 | [13 - Estrutura de decisão condicional if then else](topicos/EstrutDecisCondicIfThenElse.md)|[28 -]()|
 | [14 - Condicional aninhado if-then com elif](topicos/CondicionalIfThenElif.md)|[29 -]()|
 | [15 - Comparações numéricas e de strings com comando test](topicos/CompNumStrTest.md)|[30 -]()|
