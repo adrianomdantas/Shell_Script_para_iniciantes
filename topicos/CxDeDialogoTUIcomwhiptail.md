@@ -13,6 +13,7 @@ Todo comando está e, uma única linha de texto
 --msgbob - tipo da caixa  
 --fb - sombreado na caixa  
 10 50 - numero de linhas e colunas que vai ocupar na tela  
+
 ![](imagem/messagebox.png "caixa de mensagem")  
 
 Outro tipo de caixa é o tipo "yes no"
@@ -26,6 +27,7 @@ else
 fi
 ```
 ![](imagem/yesnobox.png "botão yes no")
+
 Neste caso, o whiptail retorna um status de saida na execução na variável especial **$?**, se o botão **yes** for escolhido, ele retorna o status de saida "0", e **se** o no for escolhido, ele retorna o status de saida "1".  
 
 Há a possibilidade de personalizar os botões yes e no.
@@ -46,7 +48,9 @@ whiptail --title "Caixa infobox" --infobox "Esta é apenas uma caixa de informa�
 ```
 
 Outro exemplo de caixa é a imputbox, a inputbox aguarda o usuário inserir alguma informação
+
 ![](imagem/inputbox.png)
+
 ```
 #!/bin/bash
 nome=$(whiptail --title "Entrada de nome de usuário" --inputbox "Digite o seu nome: " --fb 10 60 3>&1 1>&2 2>&3)
@@ -82,6 +86,7 @@ else
 fi
 ```
 ![](imagens/checklist.png)
+
 Mais tipos de caixas no link http://www.bosontreinamentos.com.br/shell-script/shell-scripting-criando-caixas-de-dialogo-tui-com-whiptail-no-linux-27/  
  
 
