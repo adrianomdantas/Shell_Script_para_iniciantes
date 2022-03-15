@@ -14,7 +14,7 @@ Todo comando está e, uma única linha de texto
 --fb - sombreado na caixa  
 10 50 - numero de linhas e colunas que vai ocupar na tela  
 
-![](imagem/messagebox.png "caixa de mensagem")  
+![](Imagens/messagebox.png "caixa de mensagem")  
 
 Outro tipo de caixa é o tipo "yes no"
 ```
@@ -26,7 +26,7 @@ else
   echo "Você escolheu no.  status de saída é $?"
 fi
 ```
-![](imagem/yesnobox.png "botão yes no")
+![](Imagens/yesnobox.png "botão yes no")
 
 Neste caso, o whiptail retorna um status de saida na execução na variável especial **$?**, se o botão **yes** for escolhido, ele retorna o status de saida "0", e **se** o no for escolhido, ele retorna o status de saida "1".  
 
@@ -40,7 +40,7 @@ else
   echo "Você escolheu no. O status de saida é $?."
 fi 
 ```
-![](imagem/yesnobotaopersonalizado.png "yas no personalizado")
+![](Imagens/yesnobotaopersonalizado.png "yas no personalizado")
 
 Infobox é a caixa mais simples
 ```
@@ -49,7 +49,7 @@ whiptail --title "Caixa infobox" --infobox "Esta é apenas uma caixa de informa�
 
 Outro exemplo de caixa é a imputbox, a inputbox aguarda o usuário inserir alguma informação
 
-![](imagem/inputbox.png)
+![](Imagens/inputbox.png)
 
 ```
 #!/bin/bash
@@ -63,7 +63,7 @@ fi
 ```
 3>&1 1>&2 2>&3 - São descritores de arquivos, que basicamente descrevem arquivos abertos e pra onde vão os dados que são gerados dentro do script, estão redirecionando o erro padrão para a saida padrão, e a saida padrão é o próprio console aonde o usuário vai ver a informação, o whiptail por default, direcionao a saida dos dados para o erro padrão, por isso é necessário usar este "truque" para ver a saida no console.  
  
-![](messageboxsimples.png)
+![](imagens/messageboxsimples.png)
 
 Checklist- é uma lista de item no qual você pode selecionar quantos você quiser
 
@@ -85,7 +85,7 @@ else
 
 fi
 ```
-![](imagens/checklist.png)
+![](Imagens/checklist.png)
 
 Mais tipos de caixas no link http://www.bosontreinamentos.com.br/shell-script/shell-scripting-criando-caixas-de-dialogo-tui-com-whiptail-no-linux-27/  
  
