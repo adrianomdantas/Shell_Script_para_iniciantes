@@ -1,3 +1,5 @@
+[![N|Solid](Imagens/Home.jpeg "Ir para Home")](/README.md/)
+
 # 06 - Criando scripts simpless 
 
 É possivel encadear multiplos comandos em sequência no bash, bastando para isso separa-los com um ponto-e-virgula:  
