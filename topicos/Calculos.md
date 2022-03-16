@@ -1,3 +1,4 @@
+[![N|Solid](Imagens/Home.jpeg "Ir para Home")](/README.md/)
 
 # 10 - Cálculos aritméticos simples no bash
 É possível realizar cálculos matemátics diretamente do bash, e atin=buir o resultado de uma operação a uma variável.  
