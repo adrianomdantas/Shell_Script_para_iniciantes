@@ -26,3 +26,6 @@
 | [13 - Estrutura de decisão condicional if then else](topicos/EstrutDecisCondicIfThenElse.md)|[28 - Criando Funções em Shell Scripting](topicos/funcaoShell.md)|
 | [14 - Condicional aninhado if-then com elif](topicos/CondicionalIfThenElif.md)|[29 - Criando caixas de diálogo TUI com dialog](topicos/dialog.md)|
 | [15 - Comparações numéricas e de strings com comando test](topicos/CompNumStrTest.md)|[30 - Declaração break - encerrando loops prematuramente](topicos/declaracaobreak.md)|
+
+Toda a plaulist das aulas:
+https://www.youtube.com/playlist?list=PLucm8g_ezqNrYgjXC8_CgbvHbvI7dDfhs
