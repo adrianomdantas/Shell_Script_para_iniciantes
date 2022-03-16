@@ -1,4 +1,4 @@
-([README]/README.md/)
+[README](/README.md/)
 
 # 01 - Introdução
 ## Personalizar e usar o ambiente do Shell
