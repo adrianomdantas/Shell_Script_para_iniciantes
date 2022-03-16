@@ -1,3 +1,5 @@
+[![N|Solid](Imagens/Home.jpeg "Ir para Home")](/README.md/)
+
 # 08 - Redirecionar comandos para variáveis com a crase
 
 ## Redirecionar saída de comandos a cariáveis
