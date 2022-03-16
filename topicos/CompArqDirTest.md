@@ -1,3 +1,5 @@
+[![N|Solid](Imagens/Home.jpeg "Ir para Home")](/README.md/)
+
 # 16 - Comparando arquivos e diretórios com comando test
 
 ### Comparaçãoes de arquivos
