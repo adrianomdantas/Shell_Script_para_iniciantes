@@ -1,3 +1,5 @@
+[![N|Solid](Imagens/Home.jpeg "Ir para Home")](/README.md/)
+
 # 09 - Redirecionamento de entrada e saída de dados
 
 ### Redirecionamento de saida  
