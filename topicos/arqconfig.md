@@ -1,3 +1,5 @@
+[![N|Solid](Imagens/Home.jpeg "Ir para Home")](/README.md/)
+
 # 05 - Arquivos de Configuração profile, bashrc e outros
 
 Variáveis de ambiente, funções e aliases podem ser configurados automaticamente pelo bash com o uso de alguns arquivos de configuração, de modo a definir o ambiente operacioanl ao iniciar o sistema   
