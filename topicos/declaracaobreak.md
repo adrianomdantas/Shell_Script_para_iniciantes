@@ -1,3 +1,5 @@
+[![N|Solid](Imagens/Home.jpeg "Ir para Home")](/README.md/)
+
 # 30 - Declaração break - encerrando loops prematuramente
 
 O uso da instrução break, serve para interromper um laço/loop antes do final previsto.
