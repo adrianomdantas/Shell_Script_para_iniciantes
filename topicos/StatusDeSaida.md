@@ -1,3 +1,5 @@
+[![N|Solid](Imagens/Home.jpeg "Ir para Home")](/README.md/)
+
 # 12 - Status de Saída dos comandos e o comando exit
 
 Cada comando que roda no shell usa um valor de status de saída para indicar ao shell que o processamento terminou.  
