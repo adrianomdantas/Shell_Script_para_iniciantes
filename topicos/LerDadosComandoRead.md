@@ -82,4 +82,4 @@ done
 
 |Topico Anterior|Próximo Topico|
 |:---|---:|
-|[25 - Ler dados do teclado - Opções de linha de comando](LerDadosOpDeLinComando.md)|[27Criando caixas de diálogo TUI com whiptail no Linux](CxDeDialogoTUIcomwhiptail.md)|
+|[25 - Ler dados do teclado - Opções de linha de comando](LerDadosOpDeLinComando.md)|[27 - Criando caixas de diálogo TUI com whiptail no Linux](CxDeDialogoTUIcomwhiptail.md)|
