@@ -1,4 +1,4 @@
-29 - Criando caixas de diálogo TUI com dialog
+# 29 - Criando caixas de diálogo TUI com dialog
 
 Por padrão, o dialog não vem instalado no linux, é necessário instalar atravém do comando `~# apt get install dialog`.  
 Este comando, utiliza varios parâmetros de linha de comandopara determinar o tipo do widgetde janela que a gente vai criar, então ele trabalha com conceito de widget, cada widget cprresponde a uma função ou a um tipo de janela que o dialog pode criar, então a gente dtem widget para trabalhar por exemplo com checklist, com formulário, com caixa de informações, menus, calendários, listagem de botões de raio e outras coisas mais.
@@ -126,4 +126,4 @@ verde
 
 |Topico Anterior|Próximo Topico|
 |:---|---:|
-|[28 - Criando Funções em Shell Scripting](funcaoShell.md)]||
+|[28 - Criando Funções em Shell Scripting](funcaoShell.md)]|[30 - Declaração break - encerrando loops prematuramente](declaracaobreak.md)|
