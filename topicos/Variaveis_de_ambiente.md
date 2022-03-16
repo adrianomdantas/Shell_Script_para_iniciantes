@@ -35,7 +35,7 @@ E verificamos o seu valor com o comando echo, o "$" é necessário para ver o co
 ```
 echo $teste
 ```
-Podemos disponibilizar a variável criada para outros shells ou programas com o comando `$expor`:
+Podemos disponibilizar a variável criada para outros shells ou programas com o comando `$export`:
 ```
 export teste
 ```
