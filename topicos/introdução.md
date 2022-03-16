@@ -1,5 +1,4 @@
-[README](/README.md/)
-
+[![N|Solid](Imagens/Home.jpeg)](/README.md/)
 # 01 - Introdução
 ## Personalizar e usar o ambiente do Shell
 
