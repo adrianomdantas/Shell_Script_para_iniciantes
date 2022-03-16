@@ -53,4 +53,4 @@ echo "O quadrado do número é $valor"
 ```
 |Topico Anterior|Próximo Topico|
 |:---|---:|
-|[27 -Criando caixas de diálogo TUI com whiptail no Linux](CxDeDialogoTUIcomwhiptail.md)|[29 - Criando caixas de diálogo TUI com dialog]()|
+|[27 -Criando caixas de diálogo TUI com whiptail no Linux](CxDeDialogoTUIcomwhiptail.md)|[29 - Criando caixas de diálogo TUI com dialog](dialog.md)|
