@@ -1,3 +1,5 @@
+[![N|Solid](Imagens/Home.jpeg "Ir para Home")](/README.md/)
+
 # 11 - Usando a calculadora bc em scripts
 
 A calculadora do bash é na verdade uma linguagem de programação que permite executar expressões de ponto flutuante no terminal.  
