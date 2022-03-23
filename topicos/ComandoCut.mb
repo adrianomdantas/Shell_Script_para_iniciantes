@@ -122,6 +122,7 @@ lp ++++ lp
 sync ++++ sync
 shutdown ++++ shutdown
 ```
+
 Um ultimo exemplo, é combinar o comando grep com o cut
 ```
 [root@localhost Fulano]# grep "/bin/bash" /etc/passwd | cut -d: -f1,3
