@@ -111,7 +111,7 @@ Podemos também trabalhar com caracteres e não com campos
 11
 [root@localhost Fulano]#
 ```
-Um ultimo exemplo, é combinar o comando grep cpm o cut
+Um ultimo exemplo, é combinar o comando grep com o cut
 ```
 [root@localhost Fulano]# grep "/bin/bash" /etc/passwd | cut -d: -f1,3
 root:0
