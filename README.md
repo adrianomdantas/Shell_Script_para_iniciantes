@@ -28,7 +28,7 @@
 | [15 - Comparações numéricas e de strings com comando test](topicos/CompNumStrTest.md)|[30 - Declaração break - encerrando loops prematuramente](topicos/declaracaobreak.md)|
 
 ## Manipulação de dados
-[Comando cut](topicos/ComandoCut.md)
+[Comando cut](topicos/ComandoCut.md)  
 [Comando AWK](topicos/ComandoAwk.md)
 
 Toda a playlist das aulas:
