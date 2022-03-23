@@ -1,3 +1,5 @@
+[![N|Solid](Imagens/Home.jpeg "Ir para Home")](/README.md/)
+
 # Comando cut
 
 O comando cut serve para cortar colunas de dados separados por algum caractere delimitador e imprimir estas informações que foram cortadas de um arquivo na saida padrão, o arquivo origina não será modificado mas você pode criar um novo arquivo a partirdos dados extraidos dese arquivo original.  
