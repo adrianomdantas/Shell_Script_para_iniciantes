@@ -113,14 +113,14 @@ Podemos também trabalhar com caracteres e não com campos
 ```
 Quando você seleciona 2 colunas para serem exibidas, os separadores se mantém o que tem no arquivo, porém você pode escolher este separador da seguinte maneira
 ```
-[root@localhost Fulano]# cut -d: -f1,5 --output-delimiter=' ++++ ' /etc/passwd
-root ++++ root
-bin ++++ bin
-daemon ++++ daemon
-adm ++++ adm
-lp ++++ lp
-sync ++++ sync
-shutdown ++++ shutdown
+[root@localhost Fulano]# cut -d: -f1,5 --output-delimiter=' ------> ' /etc/passwd
+root ------> root
+bin ------> bin
+daemon ------> daemon
+adm ------> adm
+lp ------> lp
+sync ------> sync
+shutdown ------> shutdown
 ```
 Um ultimo exemplo, é combinar o comando grep cpm o cut
 ```
