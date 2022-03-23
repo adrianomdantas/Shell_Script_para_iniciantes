@@ -29,7 +29,7 @@
 
 ## Manipulação de dados
 [Comando cut](topicos/ComandoCut.md)  
-[Comando AWK](topicos/ComandoAwk.md)
+[Comando awk](topicos/ComandoAwk.md)
 
 Toda a playlist das aulas:
 https://www.youtube.com/playlist?list=PLucm8g_ezqNrYgjXC8_CgbvHbvI7dDfhs
