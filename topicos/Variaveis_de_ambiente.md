@@ -57,6 +57,22 @@ Exemplos:
 `ps` #mostra o processo unico rodando agora  
 `export teste` #exporta a variavel "teste"  
 
+### Verificando sessões 
+Ao digitar o comando **ps** verificamos os processos do sistema, digitando o comando **bash** iniciamos uma nova sessão do bash, verifique que ao verificar os processos do sistema, uma sessão do bash foi iniciada neste momento a 00:00:00.
+```
+[root@localhost ~]# ps
+  PID TTY          TIME CMD
+  266 hvc0     00:00:00 sh
+  289 hvc0     00:00:00 ps
+[root@localhost ~]# bash
+[root@localhost ~]# ps
+  PID TTY          TIME CMD
+  266 hvc0     00:00:00 sh
+  290 hvc0     00:00:00 bash
+  310 hvc0     00:00:00 ps
+```
+
+
 |Topico Anterior|Próximo Topico|
 |:---|---:|
 |[01 - Introdução](introdução.md)|[03 - Arrays - Variáveis de Ambiente com múltiplos valores](Arrays.md)|
