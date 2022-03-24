@@ -31,7 +31,7 @@ local=quarto
 
 case $local in
   quarto)
-    echp "Você está no quarto";;
+    echo "Você está no quarto";;
   cozinha)
     echo "Você está na cozinha";;
   sala)
