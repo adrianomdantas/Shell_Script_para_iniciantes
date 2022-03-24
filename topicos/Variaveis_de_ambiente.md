@@ -58,17 +58,17 @@ Exemplos:
 `export teste` #exporta a variavel "teste"  
 
 ### Verificando sessões 
-Ao digitar o comando **ps** verificamos os processos do sistema, digitando o comando **bash** iniciamos uma nova sessão do bash, verifique que ao verificar os processos do sistema, uma sessão do bash foi iniciada neste momento a 00:00:05.
+Ao digitar o comando **ps** verificamos os processos do sistema, digitando o comando **bash** iniciamos uma nova sessão do bash, verifique que ao verificar os processos do sistema, uma sessão do bash foi iniciada neste momento a 00:00:01.
 ```
 [root@localhost ~]# ps
   PID TTY          TIME CMD
-  266 hvc0     00:01:07 sh
+  266 hvc0     00:00:00 sh
   289 hvc0     00:00:00 ps
 [root@localhost ~]# bash
 [root@localhost ~]# ps
   PID TTY          TIME CMD
-  266 hvc0     00:02:11 sh
-  290 hvc0     00:00:05 bash
+  266 hvc0     00:00:00 sh
+  290 hvc0     00:00:01 bash
   310 hvc0     00:00:00 ps
 ```
 
