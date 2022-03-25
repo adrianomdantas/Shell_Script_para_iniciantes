@@ -33,7 +33,7 @@ Meu primeiro strip em AWK
 [root@localhost Fulano]# awk '{print}' primeiro.txt
 meu primeiro script em AWK
 ```
-  **3 - No terminal, mas lendo um arquivo separado e o programa separado **
+  **3 - No terminal, mas lendo um arquivo separado e o programa separado**
 ```
   [root@localhost Fulano]# echo 'meu primeiro script em AWK' > primeiro.txt
 [root@localhost Fulano]# echo '{print}' > programa
