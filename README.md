@@ -1,5 +1,5 @@
 # Shell_Script_para_iniciantes
-<FONT COLOR="red">Teste</FONT>
+<FONT COLOR="#rrggbb">Teste</FONT>
 ## Shellscript para Certificação Linux
 ![figura shelscript](https://www.lpi.org/sites/default/files/styles/w555/public/LPI-CODE_0.jpg?itok=mLPazE2t "ShellScript")
  
