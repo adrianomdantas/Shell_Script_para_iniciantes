@@ -23,27 +23,27 @@ Estrutura do **awk** envolve estes 4 ou 5 opções, a depender do caso
 `awk[ -F separador ][ -v var=valor ][ 'programa' ][ -f arquivo-com-programa ][ arquivo... ]`  
 Você pode utilizar o awk de 4 maneiras  
   **1 - Diretamente no terminal ** 
-  ```
+```
   [root@localhost bin]# awk 'BEGIN {print "Meu primeiro strip em AWK"}'
 Meu primeiro strip em AWK
-  ```
+```
   **2 - No terminal, mas lendo um arquivo separado ** 
-  ```
+```
   [root@localhost Fulano]# echo 'meu primeiro script em AWK' > primeiro.txt
 [root@localhost Fulano]# awk '{print}' primeiro.txt
 meu primeiro script em AWK
-  ```
+```
   **3 - No terminal, mas lendo um arquivo separado e o programa separado  **
-  ```
+```
   [root@localhost Fulano]# echo 'meu primeiro script em AWK' > primeiro.txt
 [root@localhost Fulano]# echo '{print}' > programa
 [root@localhost Fulano]# cat programa
 {print}
 [root@localhost Fulano]# awk -f programa primeiro.txt
 meu primeiro script em AWK
-  ```
+```
   **4 - Tudo num programa executável awk**  
-  ```
+```
   [root@localhost Fulano]# echo -e '#!/usr/bin/awk -f\nBEGIN {print "Meu primeiro script AWK"}' > programa.awk
   [root@localhost Fulano]# cat programa.awk
   #!/usr/bin/awk -f
@@ -53,7 +53,7 @@ meu primeiro script em AWK
   Meu primeiro script AWK
   #OBS: o -f após o /usr/bin/awk é necessário para rodar o programa caso contrario para rodar, teremos que colocar o -f na hora da execução
   # ex: awk -f programa.awk 
-  ```
+```
 - **Declarando variáveis**  
 As variáveis no AWK possuem diversos seguimentos, O AWK classifica cada coluna como um número sendo que o número zero é o próprio arquivo, ou seja, utilizar a variável zero é a mesma coisa de não usar. exemplo
 ![](Imagens/AWKcoluna.png)
