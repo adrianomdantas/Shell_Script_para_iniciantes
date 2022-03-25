@@ -56,7 +56,7 @@ meu primeiro script em AWK
 ```
 - **Declarando variáveis**  
 As variáveis no AWK possuem diversos seguimentos, O AWK classifica cada coluna como um número sendo que o número zero é o próprio arquivo, ou seja, utilizar a variável zero é a mesma coisa de não usar. exemplo
-![](Imagens/AWKcoluna.png)
+![](Imagens/AWKcoluna.png)  
 Além das variáveis definidas pelo programador  
 ```
 [root@localhost Fulano]# awk 'BEGIN { minha_var = "Legal, aprender AWK!" ; print minha_var}'
