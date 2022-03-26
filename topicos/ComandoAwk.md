@@ -62,7 +62,7 @@ Além das variáveis definidas pelo programador
 [root@localhost Fulano]# awk 'BEGIN { minha_var = "Legal, aprender AWK!" ; print minha_var}'
 Legal, aprender AWK!
 ``` 
-também há **variaveis internas**  que são utilizadas pelo awk, são elas:
+também há **variáveis internas**  que são utilizadas pelo awk, são elas:
 |Variavel|descrição|
 |:---:|---|
 |ARGV|Valor contendo os parâmetros para o programa|
@@ -248,10 +248,6 @@ torta
 ```
 
 
-- **Inserindo comentário com awk**
-- **O que é e o que faz o begin e o end?**
-- **Tipos de saidas**
-- **Os padrões usados pelo awk**
 - **Matemática em awk**
 Começamos com operações simples
 ```
@@ -268,12 +264,12 @@ BEGIN {
 12 / 2 = 6
 3 * 5 = 15
 ```
-Lembrando que podemos passar os argumentos usando a variavel **ARGV**
-sqrt = raiz quadrada
-cos = cosseno
-sin = seno
-exp = exponencial
-log = logaritmo
+Lembrando que podemos passar os argumentos usando a variavel **ARGV**  
+sqrt = raiz quadrada  
+cos = cosseno  
+sin = seno  
+exp = exponencial  
+log = logaritmo  
 ```
 #!/usr/bin/awk -f
 BEGIN {
@@ -319,7 +315,7 @@ Caso o numero da raiz seja quebrad e você quera ver apenas o numero inteiro, ba
 print "A raiz quadrada de " ARGV[1] " é = " int( sqrt(ARGV[1]) )
 ``` 
 
-###loop while
+### loop while
 ```
 #!/usr/bin/awk -f
 BEGIN {
@@ -337,7 +333,7 @@ BEGIN {
 4
 5
 ```
-###loop for
+### loop for
 ```
 #!/usr/bin/awk -f
 BEGIN {
@@ -353,7 +349,7 @@ BEGIN {
  o numero i é: 4
  o numero i é: 5
 ```
-###Arrays
+### Arrays  
 Aqui temos uma variável "a" com 3 sistemas operacionais, porém, "a" continua sendo uma variável comum, para transforma-la em uma array, usamos o comando **split** dentro dos parenteses, a gente seleciona a variavel, um nome da array e o separador.
 ```
 #!/usr/bin/awk -f
