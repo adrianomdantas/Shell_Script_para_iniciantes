@@ -474,7 +474,7 @@ Eliminando informações duplicadas
 21 23 56
 
 ```
-- **Links Úteis (para voar no awk)**
+- **Links Úteis (para voar no awk)**  
 [Tutorial básico de AWK](https://terminalroot.com.br/2014/12/tutorial-basico-de-awk.html)  
 [AWK Wikipédia](https://pt.wikipedia.org/wiki/AWK)  
 [comp.lang.awk FAQ](http://www.faqs.org/faqs/computer-lang/awk/faq/)  
