@@ -475,6 +475,9 @@ Eliminando informações duplicadas
 [AWK Wikipédia](https://pt.wikipedia.org/wiki/AWK)  
 [comp.lang.awk FAQ](http://www.faqs.org/faqs/computer-lang/awk/faq/)  
 [awk - alguns exemplos de uso, scripts e linha de comando](http://www.zago.eti.br/script/awk.html)  
+[Manual AWk - não oficial](https://www.inf.pucrs.br/~manssour/AWK/index.html)  
+[guia linux - não oficial](https://guialinux.uniriotec.br/awk/)
+[The GNU Awk User’s Guide](https://www.gnu.org/software/gawk/manual/gawk.html)
 
 
 _...Bora estudar pra valer..._
