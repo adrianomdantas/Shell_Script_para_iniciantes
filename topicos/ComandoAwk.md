@@ -475,10 +475,10 @@ Eliminando informações duplicadas
 
 ```
 - **Links Úteis (para voar no awk)**
-[Tutorial básico de AWK](https://terminalroot.com.br/2014/12/tutorial-basico-de-awk.html)
-[AWK Wikipédia](https://pt.wikipedia.org/wiki/AWK)
-[comp.lang.awk FAQ](http://www.faqs.org/faqs/computer-lang/awk/faq/)
-[awk - alguns exemplos de uso, scripts e linha de comando](http://www.zago.eti.br/script/awk.html)
+[Tutorial básico de AWK](https://terminalroot.com.br/2014/12/tutorial-basico-de-awk.html)  
+[AWK Wikipédia](https://pt.wikipedia.org/wiki/AWK)  
+[comp.lang.awk FAQ](http://www.faqs.org/faqs/computer-lang/awk/faq/)  
+[awk - alguns exemplos de uso, scripts e linha de comando](http://www.zago.eti.br/script/awk.html)  
 
 
 _...Bora estudar pra valer..._
