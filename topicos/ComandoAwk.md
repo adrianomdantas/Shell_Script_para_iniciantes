@@ -75,7 +75,7 @@ também há **variáveis internas**  que são utilizadas pelo awk, são elas:
 |RS|Separador de registroos de entrrada. Seu pad~rao é newline|
 |FNR|Registros em linhas|
 
-Para imprimir o arquivo inteiro, se utilizarmos o {print $0} dá no mesmo
+Para imprimir o arquivo inteiro, se utilizarmos o **{print $0}** dá no mesmo
 ```
 [root@localhost Fulano]# awk '{print}' tabela.txt
 Empresa contato pais
@@ -89,7 +89,7 @@ Empresa
 LTDA
 SA
 ```
-Se a gente quiser imprimir 2,3 inverter a ordem, duplicar a coluna, basta concatenar {print $3$1$2}
+Se a gente quiser imprimir 2,3 inverter a ordem, duplicar a coluna, basta concatenar **{print $3$1$2}**
 ```
 [root@localhost Fulano]# awk '{print $3$2$1}' tabela.txt
 paiscontatoEmpresa
@@ -97,7 +97,7 @@ BrasilFulanoLTDA
 EspanhaCiclanoSA
 ```
 Observe que não tem separação entre as colunas  
-Então podemos concatenar separadores, ou simplesmente usar a virgula {print $3,$2,$1}
+Então podemos concatenar separadores, ou simplesmente usar a virgula **{print $3,$2,$1}**
 ```
 [root@localhost Fulano]# awk '{print $3" - "$2" - "$1}' tabela.txt
 pais - contato - Empresa
@@ -119,14 +119,14 @@ aliases
 alternatives
 ...
 ```
-Porém se eu imprimir a coluna 1 e 2, eu tenho na linha 1  **total 2284** mas eu posso tirar usanod o (NR)
+Porém se eu imprimir a coluna 1 e 2, eu tenho na linha 1  "total 2284" mas eu posso tirar usanod o (NR)
 ```
 [root@localhost Fulano]# ls -l /etc | awk '(NR > 1){print $1" - "$9}'
 -rw-r--r-- - adjtime
 -rw-r--r-- - aliases
 drwxr-xr-x - alternatives
 ``` 
-Podemos escolher o separados também com o comando (OFS), e podemos usar /t para ganhar mais espaço
+Podemos escolher o separados também com o comando **(OFS)**, e podemos usar /t para ganhar mais espaço
 ```
 [root@localhost Fulano]# awk 'OFS = "\t\t > \t\t " (NR > 1) {print $2,$3}' tabela.txt
 contato          >               0pais
@@ -215,7 +215,7 @@ BEGIN {
 [root@localhost fulano]# ./argumentos.awk legal massa
 O awk e muito legal e também é massa
 ```
-**Expressõesregulares**
+**Expressõesregulares**  
 Existem 2 formas basicas de trabalhar com expressões regulares em **awk**, o "^" significa começa com
 ```
 [root@localhost fulano]# awk '/t/ {print}' tabela.txt
@@ -248,7 +248,7 @@ torta
 ```
 
 
-- **Matemática em awk**
+- **Matemática em awk**  
 Começamos com operações simples
 ```
 #!/usr/bin/awk -f
