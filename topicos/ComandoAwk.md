@@ -190,14 +190,197 @@ Ou FNR + FNR para contar só em números pares
 6 > daemon > /sbin/nologin
 ```
 
-- **Passando parâmetros**
-continuar a partir do minuto 20:19
-[GUIA DEFINITIVO DE AWK PARA INICIANTES](https://youtu.be/j0Qm6CzbNbg?t=1219)
+- **Passando parâmetros**  
+Utilizando as variaveis **ARGV**
+```
+[root@localhost Fulano]# vi argumentos.awk
+#!/usr/bin/awk -f
+BEGIN {
+ print "O awk e muito " ARGV[1] " e também é " ARGV[2]
+}
+:wq
+[root@localhost fulano]# ./argumentos.awk legal massa
+O awk e muito legal e também é massa
+```
+Poderia ser assim também, jogar para dentro de uma variável e depois imprimir a variavel
+```
+[root@localhost Fulano]# vi argumentos.awk
+#!/usr/bin/awk -f
+BEGIN {
+ conceito = "O awk e muito " ARGV[1] " e também é " ARGV[2]
+ print conceito
+}
+:wq
+[root@localhost fulano]# ./argumentos.awk legal massa
+O awk e muito legal e também é massa
+```
+**Expressõesregulares**
+Existem 2 formas basicas de trabalhar com expressões regulares em **awk**, o "^" significa começa com
+```
+[root@localhost fulano]# awk '/t/ {print}' tabela.txt
+Tomate doce
+torta salgada
+[root@localhost fulano]# awk '/^t/ {print}' tabela.txt
+torta salgada
+[root@localhost fulano]# awk '/^t|A/ {print}' tabela.txt
+Abacaxi doce
+torta salgada
+[root@localhost fulano]# awk '/^[Aa]|[Tt]/ {print}' tabela.txt
+Abacaxi doce
+alface salgado
+Tomate doce
+torta salgada
+[root@localhost fulano]# awk 'BEGIN {FS = " "}/^[Aa]|[Tt]/ {print $1}' tabela.txt
+Abacaxi
+alface
+Tomate
+torta
+# imprima a primeira coluna porém com palavras que comecem com a letra "d" e que etejam na segunda coluna
+[root@localhost fulano]# awk 'BEGIN {FS = " "} $2 ~ "^d" {print $1}' tabela.txt
+Abacaxi
+Tomate
+[root@localhost fulano]# awk 'BEGIN {FS = " "} $2 ~ "^d|s" {print $1}' tabela.txt
+Abacaxi
+alface
+Tomate
+torta
+```
+
+
 - **Inserindo comentário com awk**
 - **O que é e o que faz o begin e o end?**
 - **Tipos de saidas**
 - **Os padrões usados pelo awk**
 - **Matemática em awk**
+Começamos com operações simples
+```
+#!/usr/bin/awk -f
+BEGIN {
+  print "8 + 8 = " 8 + 8
+  print "3 - 2 = " 3 - 2
+  print "12 / 2 = " 12 / 2
+  print "3 * 5 = " 3 * 5
+}
+[root@localhost fulano]# ./matematica.awk
+8 + 8 = 16
+3 - 2 = 1
+12 / 2 = 6
+3 * 5 = 15
+```
+Lembrando que podemos passar os argumentos usando a variavel **ARGV**
+sqrt = raiz quadrada
+cos = cosseno
+sin = seno
+exp = exponencial
+log = logaritmo
+```
+#!/usr/bin/awk -f
+BEGIN {
+  print "8 + 8 = " 8 + 8
+  print "3 - 2 = " 3 - 2
+  print "12 / 2 = " 12 / 2
+  print "3 * 5 = " 3 * 5
+  print "A raiz quadrada de " ARGV[1] " é = " sqrt(ARGV[1])
+}
+[root@localhost fulano]# ./matematica.awk 25
+8 + 8 = 16
+3 - 2 = 1
+12 / 2 = 6
+3 * 5 = 15
+A raiz quadrada de 25 é = 5
+```
+Podemos colocar uma condição if para printar uma mensagemque o usuário não digitou numero
+```
+#!/usr/bin/awk -f
+BEGIN {
+  if(ARGV[1] == 0){
+     print "Informe o número"
+  }
+  else{
+  print "8 + 8 = " 8 + 8
+  print "3 - 2 = " 3 - 2
+  print "12 / 2 = " 12 / 2
+  print "3 * 5 = " 3 * 5
+  print "A raiz quadrada de " ARGV[1] " é = " sqrt(ARGV[1])
+  }
+}
+[root@localhost fulano]# ./matematica.awk
+Informe o número
+[root@localhost fulano]# ./matematica.awk 25
+8 + 8 = 16
+3 - 2 = 1
+12 / 2 = 6
+3 * 5 = 15
+A raiz quadrada de 25 é = 5
+```
+Caso o numero da raiz seja quebrad e você quera ver apenas o numero inteiro, basta usar o **int**
+```
+print "A raiz quadrada de " ARGV[1] " é = " int( sqrt(ARGV[1]) )
+``` 
+
+###loop while
+```
+#!/usr/bin/awk -f
+BEGIN {
+ num = 0
+ while (num <= 5){
+ print num
+ num += 1
+ }
+}
+[root@localhost fulano]# ./while.awk
+0
+1
+2
+3
+4
+5
+```
+###loop for
+```
+#!/usr/bin/awk -f
+BEGIN {
+ for( i = 0; i <= 5; i++){
+ print " o numero i é: " i
+ }
+}
+[root@localhost fulano]# ./for.awk
+ o numero i é: 0
+ o numero i é: 1
+ o numero i é: 2
+ o numero i é: 3
+ o numero i é: 4
+ o numero i é: 5
+```
+###Arrays
+Aqui temos uma variável "a" com 3 sistemas operacionais, porém, "a" continua sendo uma variável comum, para transforma-la em uma array, usamos o comando **split** dentro dos parenteses, a gente seleciona a variavel, um nome da array e o separador.
+```
+#!/usr/bin/awk -f
+BEGIN{
+        a = "GNU/Linux Darwin/macOS Microsoft/Widows"
+        split(a, array, " ")
+        print array[1] 
+}
+[root@localhost fulano]# ./array.awk
+GNU/Linux
+```
+Podemos usar o for nesta array também
+```
+#!/usr/bin/awk -f
+BEGIN{
+  a = "GNU/Linux Darwin/macOS Microsoft/Widows"
+  split(a, array, " ")
+  for(i = 0; i < length(array); i++){
+  print array[i]
+  }
+}
+[root@localhost fulano]# ./array.awk
+ 
+GNU/Linux
+Darwin/macOS
+Microsoft/Widows
+```
+
 - **A saída com print e formatada com printf**
 - **Trabalhando com shell do GNU/Linux**
 - **Exemplos**
