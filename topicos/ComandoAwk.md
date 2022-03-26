@@ -73,6 +73,7 @@ também há **variaveis internas**  que são utilizadas pelo awk, são elas:
 |OFS|Separados de campos na saída. Seu padrão é branco|
 |ORS|Separador dos registros de saída. Seu padrão é newline|
 |RS|Separador de registroos de entrrada. Seu pad~rao é newline|
+|FNR|Registros em linhas|
 
 Para imprimir o arquivo inteiro, se utilizarmos o {print $0} dá no mesmo
 ```
@@ -381,17 +382,105 @@ Darwin/macOS
 Microsoft/Widows
 ```
 
-- **A saída com print e formatada com printf**
-- **Trabalhando com shell do GNU/Linux**
 - **Exemplos**
-- **Exercícios**
-- **Links Úteis (para voar no awk)**
-### Exemplos
-### Expressões regulares
-### Vetores
-### Matemática
-### Exercícios
+Temos um arquivo com valores sem especificação, queremos colocar isso neles ao lado de cada um
+testado FNR com outros valores e funcionou também
+```
+[root@localhost fulano]# cat calculos.txt
+87 52 21
+23 12 45
+56 87 89
+21 23 56
+```
+```
+[root@localhost fulano]# cat info.awk
+#!/usr/bin/awk -f
+BEGIN{
+  FNR == 2
+}
+{
+  print "Qtd: "$1" - Valor: "$2" - Especificação: "$3
+}
+```
+```
+[root@localhost fulano]# ./info.awk calculos.txt
+Qtd: 87 - Valor: 52 - Especificação: 21
+Qtd: 23 - Valor: 12 - Especificação: 45
+Qtd: 56 - Valor: 87 - Especificação: 89
+Qtd: 21 - Valor: 23 - Especificação: 56
+```
+Agora colocaremos nomes nas colunas
+```
+[root@localhost fulano]# awk 'BEGIN {print "QT VA ES"}1' calculos.txt
+QT VA ES
+87 52 21
+23 12 45
+56 87 89
+21 23 56
+```
+Agora quemeros a somatória dos valores das colunas
+```
+[root@localhost fulano]# cat info.awk
+#!/usr/bin/awk -f
+BEGIN{
+  FNR == 0
+}
+{
+  print "Qtd: "$1" - Valor: "$2" - Especificação: "$3" = Total: "$1+$2+$3
+}
+[root@localhost fulano]# ./info.awk calculos.txt
+Qtd: 87 - Valor: 52 - Especificação: 21 = Total: 160
+Qtd: 23 - Valor: 12 - Especificação: 45 = Total: 80
+Qtd: 56 - Valor: 87 - Especificação: 89 = Total: 232
+Qtd: 21 - Valor: 23 - Especificação: 56 = Total: 100
+```
+Imprimindo um item com base na linha e coluna
+```
+#!/usr/bin/awk -f
+BEGIN{
+  FNR == 0
+}
+{
+  print "Qtd: "$1" - Valor: "$2" - Especificação: "$3" = Total: "$1+$2+$3
+}
+[root@localhost fulano]# cat calculos.txt
+87 52 21
+23 12 45
+56 87 89
+21 23 56
+[root@localhost fulano]# awk -v Linha=3 -v coluna=2 'FNR == Linha {print $coluna}' calculos.txt
+87
+```
+Eliminando informações duplicadas
+```
+[root@localhost fulano]# cat duplicados.txt
+87 52 21
+23 12 45
+56 87 89
+21 23 56
+87 52 21
+23 12 45
+56 87 89
+21 23 56
+87 52 21
+23 12 45
+56 87 89
+21 23 56
 
-_...Em construção..._
+[root@localhost fulano]# awk '!x[$0]++' duplicados.txt
+87 52 21
+23 12 45
+56 87 89
+21 23 56
+
+```
+- **Links Úteis (para voar no awk)**
+[Tutorial básico de AWK](https://terminalroot.com.br/2014/12/tutorial-basico-de-awk.html)
+[AWK Wikipédia](https://pt.wikipedia.org/wiki/AWK)
+[comp.lang.awk FAQ](http://www.faqs.org/faqs/computer-lang/awk/faq/)
+[awk - alguns exemplos de uso, scripts e linha de comando](http://www.zago.eti.br/script/awk.html)
+
+
+_...Bora estudar pra valer..._
 
 ![](Imagens/Working.gif)
