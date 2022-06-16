@@ -129,3 +129,107 @@ root:0
 kojibuilder:989
 [root@localhost Fulano]#
 ```
+
+O Comando tr, transforma ou deleta um caractere, a sintaxe é
+```
+$ tr [OPTION] SET1 [SET2]
+```
+Opções  
+-c complementa o conjunto de caracteres em string.ou seja, as operações se aplicam a caracteres que não estão no conjunto fornecido  
+-d Deleta o caractere no primeiro conjunto da saida  
+-s substitui caracteres repetidos listados no set1 por ocorrência única  
+-t truncate (acredito que deleta)  
+
+1. How to convert lower case to upper case
+To convert from lower case to upper case the predefined sets in tr can be used.
+```
+$cat greekfile
+```
+Output:
+```
+WELCOME TO 
+GeeksforGeeks
+```
+```
+$cat greekfile | tr “[a-z]” “[A-Z]”
+```
+Output:
+```
+WELCOME TO
+GEEKSFORGEEKS
+```
+or
+```
+$cat geekfile | tr “[:lower:]” “[:upper:]”
+```
+Output:
+```
+WELCOME TO
+GEEKSFORGEEKS
+```
+2. How to translate white-space to tabs
+The following command will translate all the white-space to tabs
+```
+$ echo "Welcome To GeeksforGeeks" | tr [:space:] '\t'
+```
+Output:
+```
+Welcome    To    GeeksforGeeks    
+```
+3. How to translate braces into parenthesis
+You can also translate from and to a file. In this example we will translate braces in a file with parenthesis.
+```
+$cat greekfile
+```
+Output:
+```
+ {WELCOME TO} 
+GeeksforGeeks
+```
+```
+$ tr '{}' '()'   newfile.txt
+```
+Output:
+```
+(WELCOME TO) 
+GeeksforGeeks
+```
+The above command will read each character from “geekfile.txt”, translate if it is a brace, and write the output in “newfile.txt”.
+
+4. How to use squeeze repetition of characters using -s
+To squeeze repeat occurrences of characters specified in a set use the -s option. This removes repeated instances of a character.
+OR we can say that,you can convert multiple continuous spaces with a single space
+```
+$ echo "Welcome    To    GeeksforGeeks" | tr -s [:space:] ' '
+```
+Output:
+```
+Welcome To GeeksforGeeks
+```
+5. How to delete specified characters using -d option
+To delete specific characters use the -d option.This option deletes characters in the first set specified.
+
+```
+$ echo "Welcome To GeeksforGeeks" | tr -d 'w'
+```
+Output:
+```
+elcome To GeeksforGeeks
+```
+6. To remove all the digits from the string, use
+```
+$ echo "my ID is 73535" | tr -d [:digit:]
+```
+Output:
+```
+my ID is
+```
+7. How to complement the sets using -c option
+You can complement the SET1 using -c option. For example, to remove all characters except digits, you can use the following.
+```
+$ echo "my ID is 73535" | tr -cd [:digit:]
+```
+Output:
+```
+73535
+```
